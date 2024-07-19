@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    margin-top: 3.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2%;
+    font-weight: 600;
+    width: 25vw;
+    border: 5px outset gray;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: bisque;
+}
+input{
+    height: 28px;
+    margin-bottom: 10px;
+}
+input:focus{
+    background-color: rgb(196, 171, 171);
+}
+button{
+    width: 30%;
+    margin: auto;
+    padding: 8px;
+    margin-top: 15px;
+    background-color: lightgreen;
+    transition: .4s;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+button:hover{
+    background-color: green;
+    width: 50%;
+}
